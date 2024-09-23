@@ -7,3 +7,5 @@ Comandos Git
 2.- git commit -m "nombre del commit"
 3.- git push
 
+composer require telegram-bot/api
+
