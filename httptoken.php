@@ -3,7 +3,7 @@
 $botToken ="7686983061:AAHAXonp0DiTW4TZyBvt1daghZ6R_HarXDA";
 
 /*TODO url del webhook*/
-$webhookurl="https://paulajgarcia68.wixsite.com/chatbot-paula";
+$webhookurl="https://lavieinformatica.com";
 
 /*TODO configura el webhook mediante una solicitud http*/
 $apiurl ="https://api.telegram.org/bot$botToken/setWebhook?url=$webhookurl";

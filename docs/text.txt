@@ -9,3 +9,6 @@ Comandos Git
 
 composer require telegram-bot/api
 
+BD: u899657396_ejemplobot
+Usuario: u899657396_Paulagarcia
+Contraseña Pjgb1268
