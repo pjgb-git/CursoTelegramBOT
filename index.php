@@ -13,7 +13,6 @@ $update = json_decode(file_get_contents('php://input'));
 if(isset($update->message_text)){
     $chatId = $update->message->chat->id;
     $text = $update->message->text;
-$telegram->sendMessage($chatId,"Lo que escribió el usuario es: ".$text);
+$telegram->sendMessage($chatId,"Lo que escribió el usuario es: ".$chatId." | ".$text);
 
 }
-?>

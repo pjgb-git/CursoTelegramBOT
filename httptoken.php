@@ -3,7 +3,7 @@
 $botToken ="7686983061:AAHAXonp0DiTW4TZyBvt1daghZ6R_HarXDA";
 
 /*TODO url del webhook*/
-$webhookurl="http://lavieinformatica.com/index.php";
+$webhookurl="https://lavieinformatica.com/index.php";
 
 /*TODO configura el webhook mediante una solicitud http*/
 $apiurl ="https://api.telegram.org/bot$botToken/setWebhook?url=$webhookurl";
@@ -23,4 +23,3 @@ if ($response === false){
     }
 }
 
-?>
